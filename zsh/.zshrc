@@ -1,9 +1,11 @@
 DOTFILES="$HOME/.dotfiles"
 
-# Source Prezto
-source "${ZDOTDIR:-$HOME}/.zprezto/runcoms/zshrc"
+# Source Prezto zshrc
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/runcoms/zshrc" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/runcoms/zshrc"
+fi
 
-# Source Dotfile Prezto
+# Source Dotfile Prezto modules
 ZDOTDIR="$DOTFILES/zsh"
 if [[ -s "$HOME/.zprezto/init.zsh" ]]; then
   source "$HOME/.zprezto/init.zsh"
