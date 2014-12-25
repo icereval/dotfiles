@@ -16,7 +16,7 @@ Dotfiles
   * Tmuxinator (https://github.com/tmuxinator/tmuxinator)
   * Tmux-Yank (https://github.com/tmux-plugins/tmux-yank)
   * TmuxPluginManager (https://github.com/tmux-plugins/tpm)
-* iTerm2
+* iTerm2 (http://iterm2.com/)
 * tbd...
 
 Installation
