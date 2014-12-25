@@ -16,6 +16,7 @@ Dotfiles
   * Tmuxinator (https://github.com/tmuxinator/tmuxinator)
   * Tmux-Yank (https://github.com/tmux-plugins/tmux-yank)
   * TmuxPluginManager (https://github.com/tmux-plugins/tpm)
+* iTerm2 (http://iterm2.com/)
 * tbd...
 
 Installation
@@ -27,8 +28,8 @@ Installation
 
   2. Clone the dotfiles repository:
 
-	git clone --recursive https://github.com/icereval/dotfiles.git "$HOME/.dotfiles"
+	git clone --recursive https://github.com/icereval/dotfiles.git $HOME/.dotfiles
 
   3. Link dotfile configurations:
 
-	$HOME/.dotfiles/link.zsh
+	"$HOME/.dotfiles/link.zsh"
