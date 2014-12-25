@@ -27,4 +27,4 @@ Installation
 
   3. Link custom dotfile configurations:
 
-	"$HOME/.dotfiles/link.zsh"
+	$HOME/.dotfiles/link.zsh
