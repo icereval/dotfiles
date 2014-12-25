@@ -28,7 +28,7 @@ Installation
 
   2. Clone the dotfiles repository:
 
-	git clone --recursive https://github.com/icereval/dotfiles.git $HOME/.dotfiles
+	git clone --recursive https://github.com/icereval/dotfiles.git "$HOME/.dotfiles"
 
   3. Link dotfile configurations:
 
