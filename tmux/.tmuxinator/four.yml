@@ -1,0 +1,14 @@
+# ~/.tmuxinator/default.yml
+
+name: four
+root: ~/
+
+windows:
+  - editor:
+      layout: 595d,422x98,0,0{211x98,0,0[211x49,0,0,0,211x48,0,50,3],210x98,212,0[210x49,212,0,1,210x48,212,50,2]}
+      panes:
+        - 
+        - 
+        - 
+        -
+

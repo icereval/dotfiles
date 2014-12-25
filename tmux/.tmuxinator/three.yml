@@ -1,0 +1,12 @@
+# ~/.tmuxinator/default.yml
+
+name: three
+root: ~/
+
+windows:
+  - editor:
+      layout: f6ce,318x79,0,0[318x39,0,0,0,318x39,0,40{159x39,0,40,1,158x39,160,40,2}]
+      panes:
+        - 
+        - 
+        - 

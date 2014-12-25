@@ -1,0 +1,13 @@
+# ~/.tmuxinator/default.yml
+
+name: osf
+root: ~/Projects/cos/osf/
+
+windows:
+  - editor:
+      layout: 7d90,300x69,0,0{224x69,0,0,0,75x69,225,0[75x22,225,0,1,75x22,225,23,2,75x23,225,46,3]}
+      panes:
+        - 
+        - invoke elasticsearch
+        - 
+        -

@@ -1,0 +1,14 @@
+# ~/.tmuxinator/default.yml
+
+name: osf-uplaod-service
+root: ~/Projects/cos/osf-upload-service/
+
+windows:
+  - editor:
+      layout: even-horizontal
+      panes:
+        - invoke redis
+        - invoke rabbitmq
+        - invoke celery
+        - invoke tornado
+        - 

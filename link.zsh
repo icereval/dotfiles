@@ -3,5 +3,8 @@ DOTFILES="$HOME/.dotfiles"
 # Zsh/Prezto
 ln -si "$DOTFILES/zsh/.zshrc" "$HOME/.zshrc"
 
-# Git
-#ln -si $DOTFILES/git/gitconfig ~/.gitconfig
+# Tmux
+ln -si $DOTFILES/tmux/.tmux.conf ~/.tmux.conf
+
+# TMuxinator
+ln -si $DOTFILES/tmux/.tmuxinator ~/.tmuxinator
