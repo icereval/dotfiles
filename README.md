@@ -7,6 +7,7 @@ Dotfiles
   * Python
     * PyClean
     * VirtualEnvWrapper (https://virtualenvwrapper.readthedocs.org)
+    * Invoke Completion (https://github.com/lyndsysimon/dotfiles)
 * Tmux
   * Tmuxinator (https://github.com/tmuxinator/tmuxinator)
   * Tmux-Yank (https://github.com/tmux-plugins/tmux-yank)
