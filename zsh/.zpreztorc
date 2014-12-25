@@ -4,4 +4,6 @@ zstyle ':prezto:load' pmodule \
   'completions' \
   'python' \
   'github' \
-  'autoenv'
+  'autoenv' \
+  'java' \
+  'node'

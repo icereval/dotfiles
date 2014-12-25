@@ -8,6 +8,10 @@ Dotfiles
     * PyClean
     * VirtualEnvWrapper (https://virtualenvwrapper.readthedocs.org)
     * Invoke Completion (https://github.com/lyndsysimon/dotfiles)
+  * Java
+    * Java 6/7 Environment Variables
+  * Node
+    * Node Version Manager (https://github.com/creationix/nvm)
 * Tmux
   * Tmuxinator (https://github.com/tmuxinator/tmuxinator)
   * Tmux-Yank (https://github.com/tmux-plugins/tmux-yank)
