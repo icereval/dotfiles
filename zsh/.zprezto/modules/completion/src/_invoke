@@ -3,7 +3,6 @@
 
 #compdef invoke
 #autoload
-print 'got here'
 cmds=();
 index=0;
 # Use the output of "invoke --list" to build the list of available commands
