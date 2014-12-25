@@ -3,8 +3,11 @@ DOTFILES="$HOME/.dotfiles"
 # Zsh/Prezto
 ln -si "$DOTFILES/zsh/.zshrc" "$HOME/.zshrc"
 
-# Tmux
-ln -si $DOTFILES/tmux/.tmux.conf ~/.tmux.conf
+# Git
+ln -si "$DOTFILES/git/.gitignore_global" "$HOME/.gitignore_global"
 
-# TMuxinator
-ln -si $DOTFILES/tmux/.tmuxinator ~/.tmuxinator
+# Tmux
+ln -si "$DOTFILES/tmux/.tmux.conf" "$HOME/.tmux.conf"
+
+# Tmuxinator
+ln -sih "$DOTFILES/tmux/.tmuxinator" "$HOME/.tmuxinator"
