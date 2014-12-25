@@ -25,6 +25,6 @@ Installation
 
 	git clone --recursive https://github.com/icereval/dotfiles.git "$HOME/.dotfiles"
 
-  3. Link custom dotfile configurations:
+  3. Link dotfile configurations:
 
 	$HOME/.dotfiles/link.zsh
