@@ -11,3 +11,7 @@ ln -si "$DOTFILES/tmux/.tmux.conf" "$HOME/.tmux.conf"
 
 # Tmuxinator
 ln -sih "$DOTFILES/tmux/.tmuxinator" "$HOME/.tmuxinator"
+
+# Vim
+ln -si "$DOTFILES/vim/.vimrc" "$HOME/.vimrc"
+ln -sih "$DOTFILES/vim/.vim" "$HOME/.vim"

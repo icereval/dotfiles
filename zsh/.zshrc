@@ -15,4 +15,3 @@ fi
 DISABLE_CORRECTION="true"
 unsetopt correct_all
 unsetopt correct
-
