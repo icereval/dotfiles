@@ -1,5 +1,3 @@
-# ~/.tmuxinator/default.yml
-
 name: osf
 root: ~/Projects/cos/osf/
 

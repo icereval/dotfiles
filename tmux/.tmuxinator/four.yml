@@ -1,7 +1,4 @@
-# ~/.tmuxinator/default.yml
-
 name: four
-root: ~/
 
 windows:
   - editor:

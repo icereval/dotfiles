@@ -1,7 +1,7 @@
 # ~/.tmuxinator/default.yml
 
 name: default
-root: ~/
+# root: ~/
 
 # Optional tmux socket
 # socket_name: foo

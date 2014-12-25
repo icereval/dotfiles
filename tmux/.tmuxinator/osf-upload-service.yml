@@ -1,5 +1,3 @@
-# ~/.tmuxinator/default.yml
-
 name: osf-uplaod-service
 root: ~/Projects/cos/osf-upload-service/
 
