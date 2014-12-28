@@ -6,4 +6,5 @@ zstyle ':prezto:load' pmodule \
   'github' \
   'autoenv' \
   'java' \
-  'node'
+  'node' \
+  'docker'
