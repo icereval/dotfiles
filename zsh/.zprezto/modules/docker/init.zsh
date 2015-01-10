@@ -13,4 +13,10 @@ export DOCKER_TLS_VERIFY=1
 
 alias dsa='docker stop $(docker ps -aq)'
 alias drma='docker rm $(docker ps -aq)'
-alias drmin='docker rmi $(docker images | grep "^<none>" | awk "{print $3}")'
+alias drmin='docker rmi $(docker images --no-trunc | grep "^<none>" | awk '{print $3}')'
+
+#
+# Functions
+#
+
+function drmi() { docker rmi $(docker images --no-trunc | grep -v "^REPOSITORY.*TAG" | grep "^$1" | awk '{print $3}') }
