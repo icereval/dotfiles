@@ -7,4 +7,5 @@ zstyle ':prezto:load' pmodule \
   'autoenv' \
   'java' \
   'node' \
-  'docker'
+  'docker' \
+  'ssh-copy-id'
