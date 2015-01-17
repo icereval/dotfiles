@@ -15,3 +15,7 @@ fi
 DISABLE_CORRECTION="true"
 unsetopt correct_all
 unsetopt correct
+
+# Super fast keyboard repeat rate
+# http://hints.macworld.com/article.php?story=20090823193018149
+defaults write NSGlobalDomain KeyRepeat -int 0
