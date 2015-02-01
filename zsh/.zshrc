@@ -19,3 +19,5 @@ unsetopt correct
 # Super fast keyboard repeat rate
 # http://hints.macworld.com/article.php?story=20090823193018149
 defaults write NSGlobalDomain KeyRepeat -int 0
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
