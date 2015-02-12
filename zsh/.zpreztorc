@@ -8,4 +8,5 @@ zstyle ':prezto:load' pmodule \
   'java' \
   'node' \
   'docker' \
-  'ssh-copy-id'
+  'ssh-copy-id' \
+  'sublime'
