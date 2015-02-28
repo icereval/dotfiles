@@ -5,7 +5,7 @@ root: ~/Projects/cos
 windows:
   - osf:
       root: ~/Projects/cos/osf
-      layout: d61f,422x98,0,0[422x48,0,0{211x48,0,0,0,210x48,212,0,2},422x49,0,49{211x49,0,49,3,210x49,212,49[210x24,212,49,4,210x24,212,74,5]}] 
+      layout: 086e,315x80,0,0[315x39,0,0{157x39,0,0,0,157x39,158,0,3},315x40,0,40{157x40,0,40,4,157x40,158,40[157x19,158,40{78x19,158,40,5,78x19,237,40,14},157x20,158,60{78x20,158,60,6,78x20,237,60,15}]}]
       panes:
         - server_1:
           - sleep 10
@@ -13,7 +13,10 @@ windows:
         - server_2:
           - sleep 12
           - invoke server -p 5001
-        - 
+        - waterbutler:
+          - cd ~/Projects/cos/waterbutler
+          - invoke server
+        - echo "invoke mongo"
         - invoke elasticsearch
         - invoke assets -dw
         - invoke sharejs
@@ -21,7 +24,7 @@ windows:
       root: ~/Projects/cos/waterbutler
       layout: d61f,422x98,0,0[422x48,0,0{211x48,0,0,0,210x48,212,0,2},422x49,0,49{211x49,0,49,3,210x49,212,49[210x24,212,49,4,210x24,212,74,5]}]
       panes:
-        - invoke server
+        - echo "invoke server"
         - echo "invoke celery"
         - 
         - echo "invoke rabbitmq"
