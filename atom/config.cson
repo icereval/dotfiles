@@ -1,0 +1,12 @@
+"*":
+  editor:
+    invisibles: {}
+    fontSize: 13
+  core: {}
+  "exception-reporting":
+    userId: "39ccae1b-4180-54e6-70d9-ea99c2c9e8e8"
+  welcome:
+    showOnStartup: false
+  linter: {}
+  "linter-flake8": {}
+  minimap: {}

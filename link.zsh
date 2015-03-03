@@ -15,3 +15,8 @@ ln -sih "$DOTFILES/tmux/.tmuxinator" "$HOME/.tmuxinator"
 # Vim
 ln -si "$DOTFILES/vim/.vimrc" "$HOME/.vimrc"
 ln -sih "$DOTFILES/vim/.vim" "$HOME/.vim"
+
+# Atom
+ln -si "$DOTFILES/atom/config.cson" "$HOME/.atom/config.cson"
+ln -si "$DOTFILES/atom/init.coffee" "$HOME/.atom/init.coffee"
+
