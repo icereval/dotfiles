@@ -10,3 +10,4 @@
   linter: {}
   "linter-flake8": {}
   minimap: {}
+  "travis-ci-status": {}
