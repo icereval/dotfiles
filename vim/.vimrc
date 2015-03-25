@@ -23,6 +23,13 @@ set nowrap
 " Backspace over existing characters
 set backspace=indent,eol,start
 
+" Tabs
+set expandtab " expand tabs by default (overloadable per file type later)
+set tabstop=4 " a tab is 4 spaces
+set softtabstop=4 " when hitting <BS>, pretend like a tab is removed, even if spaces
+set shiftwidth=4 " number of spaces to use for autoindenting
+set shiftround " use multiple of shiftwidth when indenting with '<' and '>'
+
 " Mouse
 " Enable basic mouse behavior such as resizing buffers.
 " http://usevim.com/2012/05/16/mouse/
