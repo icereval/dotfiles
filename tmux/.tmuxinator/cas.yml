@@ -1,0 +1,17 @@
+name: cas
+startup_window: cas
+root: ~/Projects/cos
+
+windows:
+  - cas:
+      root: ~/Projects/cos/docker-library/cas
+      layout: even-horizontal
+      panes:
+        - server:
+          - sleep 10
+          - $(boot2docker shellinit)
+          - docker-compose up
+        - database_tunnel:
+          - $(boot2docker shellinit)
+          - boot2docker ssh -vnNTR 27017:localhost:27017
+

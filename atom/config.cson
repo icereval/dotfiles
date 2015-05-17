@@ -1,17 +1,28 @@
 "*":
   editor:
-    invisibles: {}
-    fontSize: 14
-  core: {}
+    invisibles:
+      {}
+    fontSize: 12
+    autoIndent: false
+    showIndentGuide: true
+  core:
+    {}
   "exception-reporting":
     userId: "39ccae1b-4180-54e6-70d9-ea99c2c9e8e8"
   welcome:
     showOnStartup: false
-  linter: {}
-  "linter-flake8": {}
-  minimap: {}
-  "travis-ci-status": {}
+  linter:
+    {}
+  "linter-flake8":
+    {}
+  minimap:
+    {}
+  "travis-ci-status":
+    {}
   "recent-files":
     updated: false
   "atom-beautify":
-    _analyticsUserId: "f4562e5d-a73b-4da4-8c98-18c312739991"
+    analytics: false
+    beautifyEntireFileOnSave: false
+  "tree-view":
+    hideVcsIgnoredFiles: true
