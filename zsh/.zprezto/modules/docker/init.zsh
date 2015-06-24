@@ -11,7 +11,7 @@ $(boot2docker shellinit)
 # Aliases
 #
 
-alias dsa='docker stop $(docker ps -aq)'
+alias dsa='docker stop -t 0 $(docker ps -aq)'
 alias drma='docker rm -f $(docker ps -aq)'
 alias drmin='docker rmi -f $(docker images --no-trunc | grep "^<none>" | awk "{print \$3}")'
 
