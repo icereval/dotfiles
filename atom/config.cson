@@ -1,24 +1,26 @@
 "*":
   editor:
-    invisibles:
-      {}
+    invisibles: {}
     fontSize: 12
     autoIndent: false
     showIndentGuide: true
   core:
-    {}
+    disabledPackages: [
+      "resize-panes-w-mouse"
+      "resize-panes-w-mouse"
+      "resize-panes-w-mouse"
+      "resize-panes-w-mouse"
+      "resize-panes-w-mouse"
+      "resize-panes-w-mouse"
+    ]
   "exception-reporting":
     userId: "39ccae1b-4180-54e6-70d9-ea99c2c9e8e8"
   welcome:
     showOnStartup: false
-  linter:
-    {}
-  "linter-flake8":
-    {}
-  minimap:
-    {}
-  "travis-ci-status":
-    {}
+  linter: {}
+  "linter-flake8": {}
+  minimap: {}
+  "travis-ci-status": {}
   "recent-files":
     updated: false
   "atom-beautify":
