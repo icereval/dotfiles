@@ -4,7 +4,7 @@
 
 # Boot2Docker
 #$(docker-machine env dev)
-$(boot2docker shellinit)
+$(boot2docker shellinit 2>/dev/null)
 
 
 #

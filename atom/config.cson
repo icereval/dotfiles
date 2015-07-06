@@ -13,6 +13,10 @@
       "resize-panes-w-mouse"
       "resize-panes-w-mouse"
     ]
+    themes: [
+      "seti-ui"
+      "seti-syntax"
+    ]
   "exception-reporting":
     userId: "39ccae1b-4180-54e6-70d9-ea99c2c9e8e8"
   welcome:
@@ -26,5 +30,7 @@
   "atom-beautify":
     analytics: false
     beautifyEntireFileOnSave: false
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
+  pigments: {}
+  "one-dark-ui": {}
+  "git-history": {}
