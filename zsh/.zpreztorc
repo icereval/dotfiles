@@ -11,4 +11,5 @@ zstyle ':prezto:load' pmodule \
   'google' \
   'vmware' \
   'ssh-copy-id' \
-  'sublime'
+  'sublime' \
+  'rvm'
