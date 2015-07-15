@@ -22,8 +22,3 @@ windows:
         - invoke elasticsearch
         - invoke assets -dw
         - invoke sharejs
-  - misc:
-      layout: even-horizontal
-      panes:
-        -
-        -
