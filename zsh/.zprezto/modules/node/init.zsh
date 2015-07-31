@@ -7,5 +7,5 @@
 source $(brew --prefix nvm)/nvm.sh
 
 # Set NVM default as user default
-ln -sf `which node` /usr/local/bin/node
-ln -sf `which npm` /usr/local/bin/npm
+#ln -sf `which node` /usr/local/bin/node
+#ln -sf `which npm` /usr/local/bin/npm

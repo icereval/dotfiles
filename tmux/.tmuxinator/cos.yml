@@ -1,24 +1,30 @@
 name: cos
 startup_window: osf
 root: ~/Projects/cos
-
 windows:
   - osf:
       root: ~/Projects/cos/osf
-      layout: 9ef8,300x69,0,0[300x33,0,0{149x33,0,0,0,150x33,150,0,3},300x35,0,34{149x35,0,34[149x17,0,34,4,149x17,0,52,14],150x35,150,34[150x16,150,34{71x16,150,34,5,78x16,222,34,6},150x18,150,51{71x18,150,51,7,78x18,222,51,8}]}]
+      layout: main-horizontal
       panes:
-        - server:
+        - command:
+          -
+        - webserver:
           - sleep 10
           - invoke server
-        - commands:
-          -
+        - apiserver:
+          - sleep 10
+          - invoke apiserver
         - waterbutler:
           - cd ~/Projects/cos/waterbutler
           - invoke server
         - mfr:
           - cd ~/Projects/cos/modular-file-renderer
           - invoke server
-        - echo "invoke mongo"
+  - services:
+      root: ~/Projects/cos/osf
+      layout: main-horizontal
+      panes:
+        -
         - invoke elasticsearch
-        - invoke assets -dw
         - invoke sharejs
+        - invoke assets -dw
