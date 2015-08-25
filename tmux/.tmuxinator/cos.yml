@@ -4,7 +4,7 @@ root: ~/Projects/cos
 windows:
   - osf:
       root: ~/Projects/cos/osf
-      layout: main-horizontal
+      layout: main-vertical
       panes:
         - command:
           -
@@ -22,7 +22,7 @@ windows:
           - invoke server
   - services:
       root: ~/Projects/cos/osf
-      layout: main-horizontal
+      layout: main-vertical
       panes:
         -
         - invoke elasticsearch

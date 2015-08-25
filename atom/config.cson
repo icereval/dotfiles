@@ -1,9 +1,9 @@
 "*":
   editor:
     invisibles: {}
-    fontSize: 12
     autoIndent: false
     showIndentGuide: true
+    fontSize: 12
   core:
     disabledPackages: [
       "resize-panes-w-mouse"

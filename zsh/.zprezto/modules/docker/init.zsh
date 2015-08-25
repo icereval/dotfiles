@@ -2,9 +2,9 @@
 # Docker
 #
 
-# Boot2Docker
-#$(docker-machine env dev)
-$(boot2docker shellinit 2>/dev/null)
+# Docker-Machine
+eval "$(docker-machine env default 2>/dev/null)"
+#$(boot2docker shellinit 2>/dev/null)
 
 
 #
