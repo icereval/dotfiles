@@ -22,5 +22,5 @@ gpip3() {
 # Aliases
 #
 
-alias py='python'
-alias inv='invoke'
+#alias py='python'
+#alias inv='invoke'
