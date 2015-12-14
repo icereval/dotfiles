@@ -21,3 +21,6 @@ unsetopt correct
 defaults write NSGlobalDomain KeyRepeat -int 0
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+# added by travis gem
+[ -f /Users/michael/.travis/travis.sh ] && source /Users/michael/.travis/travis.sh

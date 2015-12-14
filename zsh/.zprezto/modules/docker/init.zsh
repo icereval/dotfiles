@@ -3,7 +3,6 @@
 #
 
 # Docker-Machine
-eval "$(docker-machine env default 2>/dev/null)"
 #$(boot2docker shellinit 2>/dev/null)
 
 
@@ -11,9 +10,11 @@ eval "$(docker-machine env default 2>/dev/null)"
 # Aliases
 #
 
+alias dme='eval "$(docker-machine env default)"'
 alias dsa='docker stop -t 0 $(docker ps -aq)'
 alias drma='docker rm -f $(docker ps -aq)'
-alias drmin='docker rmi -f $(docker images --no-trunc | grep "^<none>" | awk "{print \$3}")'
+#alias drmin='docker rmi -f $(docker images --no-trunc | grep "^<none>" | awk "{print \$3}")'
+alias drmin='docker rmi $(docker images -q --filter dangling=true)'
 
 #
 # Functions

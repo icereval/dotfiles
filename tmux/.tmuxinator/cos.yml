@@ -24,7 +24,9 @@ windows:
       root: ~/Projects/cos/osf
       layout: main-vertical
       panes:
-        -
+        - 
+        - ulimit -n 1024 && invoke mongo
+        - postgres -D /usr/local/var/postgres
         - invoke elasticsearch
         - invoke sharejs
         - invoke assets -dw
