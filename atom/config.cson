@@ -1,9 +1,7 @@
 "*":
-  editor:
-    invisibles: {}
-    autoIndent: false
-    showIndentGuide: true
-    fontSize: 13
+  "atom-beautify":
+    analytics: false
+    beautifyEntireFileOnSave: false
   core:
     disabledPackages: [
       "resize-panes-w-mouse"
@@ -17,21 +15,22 @@
       "atom-material-ui"
       "atom-material-syntax"
     ]
+  editor:
+    autoIndent: false
+    invisibles: {}
+    showIndentGuide: true
   "exception-reporting":
     userId: "39ccae1b-4180-54e6-70d9-ea99c2c9e8e8"
-  welcome:
-    showOnStartup: false
+  "git-history": {}
   linter: {}
   "linter-flake8": {}
   minimap: {}
-  "travis-ci-status": {}
+  "one-dark-ui": {}
+  "open-recent": {}
+  pigments: {}
   "recent-files":
     updated: false
-  "atom-beautify":
-    analytics: false
-    beautifyEntireFileOnSave: false
+  "travis-ci-status": {}
   "tree-view": {}
-  pigments: {}
-  "one-dark-ui": {}
-  "git-history": {}
-  "open-recent": {}
+  welcome:
+    showOnStartup: false
