@@ -1,7 +1,9 @@
 "*":
   "atom-beautify":
-    analytics: false
-    beautifyEntireFileOnSave: false
+    general:
+      _analyticsUserId: "3fe9b833-2b0e-447a-beca-5d4b834dcdd6"
+      analytics: false
+      beautifyEntireFileOnSave: false
   core:
     disabledPackages: [
       "resize-panes-w-mouse"
@@ -10,6 +12,7 @@
       "resize-panes-w-mouse"
       "resize-panes-w-mouse"
       "resize-panes-w-mouse"
+      "activate-power-mode"
     ]
     themes: [
       "atom-material-ui"

@@ -1,0 +1,14 @@
+name: cos
+startup_window: share
+root: ~/Projects/cos/share
+windows:
+  - osf:
+      root: ~/Projects/cos/share
+      layout: main-vertical
+      panes:
+        - web:
+          - python3 manage.py runserver 127.0.0.1:8000
+        - worker:
+          - python3 manage.py celery worker --autoreload -l DEBUG
+        - monitor:
+          - python3 manage.py monitor

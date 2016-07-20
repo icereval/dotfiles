@@ -12,4 +12,5 @@ zstyle ':prezto:load' pmodule \
   'vmware' \
   'ssh-copy-id' \
   'sublime' \
-  'rvm'
+  'rvm' \
+  'google-cloud-sdk'
