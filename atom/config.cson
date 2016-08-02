@@ -20,6 +20,7 @@
     ]
   editor:
     autoIndent: false
+    fontSize: 15
     invisibles: {}
     showIndentGuide: true
   "exception-reporting":
