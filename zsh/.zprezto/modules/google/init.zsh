@@ -5,10 +5,10 @@
 # Google Cloud SDK
 #
 # The next line updates PATH for the Google Cloud SDK.
-source '/Users/michael/google-cloud-sdk/path.zsh.inc'
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
 
 # The next line enables bash completion for gcloud.
-source '/Users/michael/google-cloud-sdk/completion.zsh.inc'
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
 
 export KUBE_EDITOR="vim"
 

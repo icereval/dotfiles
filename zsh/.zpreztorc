@@ -13,4 +13,5 @@ zstyle ':prezto:load' pmodule \
   'ssh-copy-id' \
   'sublime' \
   'rvm' \
-  'google-cloud-sdk'
+  'google-cloud-sdk' \
+  'ansible'
