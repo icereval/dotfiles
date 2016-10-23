@@ -8,8 +8,10 @@ colorscheme solarized
 set whichwrap+=<,>,h,l,[,]
 
 " Clipboard (Vim 7.4)
-" http://evertpot.com/osx-tmux-vim-copy-paste-clipboard/
-set clipboard=unnamed
+" http://stackoverflow.com/questions/11404800/fix-vim-tmux-yank-paste-on-unnamed-register
+if $TMUX == ''
+    set clipboard+=unnamed
+endif
 
 " Highlight Search Results
 set hlsearch

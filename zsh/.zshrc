@@ -17,10 +17,11 @@ unsetopt correct_all
 unsetopt correct
 
 # Super fast keyboard repeat rate
-# http://hints.macworld.com/article.php?story=20090823193018149
-# https://github.com/mathiasbynens/dotfiles/commit/6b4d9617a059e3ece468e3a9150ea920cadb1fe2
-# defaults write NSGlobalDomain KeyRepeat -int 0
-defaults write NSGlobalDomain KeyRepeat -float 0.000000000001
+# http://marianposaceanu.com/articles/macos-sierra-upgrade-from-a-developers-perspective
+# https://discussions.apple.com/thread/7682417?start=0&tstart=0
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+defaults write NSGlobalDomain KeyRepeat -int 1
+defaults write NSGlobalDomain InitialKeyRepeat -int 12
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
