@@ -9,6 +9,7 @@ zstyle ':prezto:load' pmodule \
   'java' \
   'node' \
   'docker' \
+  'go' \
   'google' \
   'vmware' \
   'ssh-copy-id' \
