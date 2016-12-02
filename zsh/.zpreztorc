@@ -16,4 +16,5 @@ zstyle ':prezto:load' pmodule \
   'sublime' \
   'rvm' \
   'google-cloud-sdk' \
-  'ansible'
+  'ansible' \
+  'kubernetes'
