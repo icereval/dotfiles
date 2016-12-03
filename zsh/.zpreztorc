@@ -17,4 +17,5 @@ zstyle ':prezto:load' pmodule \
   'rvm' \
   'google-cloud-sdk' \
   'ansible' \
-  'kubernetes'
+  'kubernetes' \
+  'aws'
