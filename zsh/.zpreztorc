@@ -18,4 +18,5 @@ zstyle ':prezto:load' pmodule \
   'google-cloud-sdk' \
   'ansible' \
   'kubernetes' \
-  'aws'
+  'aws' \
+  'gpg'
