@@ -10,6 +10,10 @@
 # Aliases
 #
 
+# docker-compose
+alias dc='docker-compose'
+
+# docker
 alias dme='eval "$(docker-machine env default)"'
 alias dsa='docker stop -t 0 $(docker ps -aq)'
 alias drma='docker rm -f $(docker ps -aq)'
