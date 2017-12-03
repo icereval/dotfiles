@@ -29,6 +29,9 @@ set softtabstop=4 " when hitting <BS>, pretend like a tab is removed, even if sp
 set shiftwidth=4 " number of spaces to use for autoindenting
 set shiftround " use multiple of shiftwidth when indenting with '<' and '>'
 
+" Disable Autoindent
+setl noai nocin nosi inde=
+
 " Mouse
 " Enable basic mouse behavior such as resizing buffers.
 " http://usevim.com/2012/05/16/mouse/
